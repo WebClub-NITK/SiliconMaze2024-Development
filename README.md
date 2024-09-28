@@ -1,11 +1,6 @@
 
-# Silicon Maze Tasks from the Development Track  
+# Silicon Maze | Development Track  
 
-**Submission Guidelines**
-
----
-
-## Repository Information  
 This repository contains the tasks for the Development Track of Silicon Maze. You are expected to complete the tasks from scratch, following the instructions provided.
 
 ## Task Guidelines
@@ -23,14 +18,12 @@ Once you have completed the tasks, you should create a video explaining your app
 2. Include a README file with a brief description of your solution and any necessary instructions for running or testing it.
 3. Submit partial solutions if needed; you will be awarded points for each subtask completed.
 
-## HR Portal Submission  
+## HackerRank Portal Submission  
 To submit your project:
 1. Paste the **GitHub repository link** (make it public after the Deadline) and the **explanation video link** in the HR answer box.
    - Example:  
      - GitHub Repo Link
      - Video Link
 2. If you see an incorrect answer message after submission, **ignore it**—this won't affect your evaluation.
-
----
 
 **Happy Coding!**
