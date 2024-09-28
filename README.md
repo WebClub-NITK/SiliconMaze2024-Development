@@ -37,7 +37,7 @@ To submit the project:
 
 ## Additional Notes  
 - Ensure the project meets the specified guidelines before submission.
-- Contact any of the collaborators listed above for further clarifications.
+- Contact any of the Development Track Seniors on the discord server or start a discussion on the server channel for further clarifications.
 
 ---
 
