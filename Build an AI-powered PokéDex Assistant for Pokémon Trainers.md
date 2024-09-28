@@ -1,3 +1,6 @@
+# Build an AI-powered PokéDex Assistant for Pokémon Trainers
+**(Total Points: 140)**
+
 In the world of Pokémon, the **PokéDex** is a legendary device that serves as an encyclopedia for all known Pokémon species. Whether you're a novice Trainer or a seasoned Pokémon Master, the PokéDex is your go-to resource for understanding the creatures that populate the Pokémon universe.
 
 But now, we're in the **Generative AI** Era—a time where technology evolves beyond static databases and precise commands. Gone are the days when you had to input exact instructions for devices to work. Today, you can simply chat with your tools in natural language.
@@ -15,20 +18,20 @@ By the end, you'll have built an AI-powered PokéDex that Trainers can rely on d
 
 <hr>
 
-### Task 1: Use Google's Gemini models (free tier) to create the PokéDex Assistant (10 Points)
+### Task 1: Use Google's Gemini models (free tier) to create the PokéDex Assistant (15 Points)
 
-1. Set up access to Google’s Gemini API (5 points)
+1. Set up access to Google’s Gemini API (7 points)
    - Create a project and setup API Key in Google Cloud Console [hint](https://support.google.com/googleapi/answer/6158862?hl=en)
    - Enable the **Generative Language API** for you project [hint](https://support.google.com/googleapi/answer/6158841?hl=en)
 
-2. Integrate the API in your development environment (5 points)
+2. Integrate the API in your development environment (8 points)
    - Set up the **Google's Gemini Model** in your environment
    - Test the API connection by sending and receiving a simple response
 
 
 <hr>
 
-### Task 2: Engineer a system prompt to shape the Assistant’s behavior as a PokéDex (15 points)
+### Task 2: Engineer a system prompt to shape the Assistant’s behavior as a PokéDex (20 points)
 - Write a prompt to ensure the chatbot behaves as an intelligent, factual PokéDex resource.
 - Ensure that the prompt focuses on delivering clear, concise explanations about Pokémon stats, types, evolutions, and other in-universe data.
 - **Incorporate strict guidelines for the Assistant to ignore irrelevant or off-topic questions.** For instance, the Assistant should refuse to answer non-Pokémon-related queries politely, such as “What’s the weather?” or “Tell me a joke,” while remaining professional and helpful.
@@ -36,46 +39,46 @@ By the end, you'll have built an AI-powered PokéDex that Trainers can rely on d
 
 <hr>
 
-### Task 3: Add the ability to provide an image as input for the PokéDex Assistant (10 Points)
+### Task 3: Add the ability to provide an image as input for the PokéDex Assistant (15 Points)
 - Ensure the PokéDex Assistant can analyze Pokémon images, like recognizing a Pikachu from a Trainer’s photograph [hint](https://ai.google.dev/gemini-api/docs/vision)
 
 <hr>
 
-### Task 4: Allow Trainers to add their own expertise to the PokéDex via PDF uploads (20 Points)
+### Task 4: Allow Trainers to add their own expertise to the PokéDex via PDF uploads (30 Points)
 
-1. Use Langchain for uploading and splitting Trainer research papers or battle strategies (5 points)
+1. Use Langchain for uploading and splitting Trainer research papers or battle strategies (7 points)
    Ensure PDFs can be split into manageable sections for detailed analysis.
 
-2. Use Google’s embeddings API to generate embeddings from Trainer expertise (5 points)
+2. Use Google’s embeddings API to generate embeddings from Trainer expertise (8 points)
    Make sure the PokéDex Assistant accurately represents the knowledge from uploaded documents [hint](https://python.langchain.com/v0.2/docs/integrations/text_embedding/google_generative_ai/)
 
-3. Store the embeddings in a vector database (ChromaDB, FAISS, etc.) for future queries (5 points)
+3. Store the embeddings in a vector database (ChromaDB, FAISS, etc.) for future queries (7 points)
    Allow the PokéDex Assistant to reference and access this expertise when Trainers ask related questions [hint](https://python.langchain.com/v0.2/docs/integrations/vectorstores/faiss/)
 
-4. Extract the embeddings and use them to respond to queries like “What’s the best battle strategy for Charizard?” (5 points)
+4. Extract the embeddings and use them to respond to queries like “What’s the best battle strategy for Charizard?” (8 points)
 
 <hr>
 
-### Task 5: Allow Trainers to add their expertise through a website link (20 Points)
+### Task 5: Allow Trainers to add their expertise through a website link (30 Points)
 
-1. Use Langchain to retrieve and process Pokémon battle guides or strategy articles from the link provided by the Trainer (5 points) [hint](https://python.langchain.com/v0.2/docs/integrations/document_loaders/url/))
+1. Use Langchain to retrieve and process Pokémon battle guides or strategy articles from the link provided by the Trainer (7 points) [hint](https://python.langchain.com/v0.2/docs/integrations/document_loaders/url/))
 
-2. Use Google’s embeddings API to generate embeddings from the fetched content (5 points)
+2. Use Google’s embeddings API to generate embeddings from the fetched content (8 points)
    Ensure the PokéDex Assistant can analyze and store this knowledge for later use [hint](https://python.langchain.com/v0.2/docs/integrations/text_embedding/google_generative_ai/)
 
-3. Store the embeddings in a vector database (5 points)
+3. Store the embeddings in a vector database (7 points)
    Ensure the PokéDex Assistant can efficiently access and provide answers based on this new expertise [hint](https://python.langchain.com/v0.2/docs/integrations/vectorstores/faiss/)
 
-4. Extract and use the stored embeddings to respond to queries like, “How do I train a Bulbasaur for competitive battles?” (5 points)
+4. Extract and use the stored embeddings to respond to queries like, “How do I train a Bulbasaur for competitive battles?” (8 points)
 
 <hr>
 
-### Task 6: Build a user-friendly front-end using Streamlit or any other preferred library/framework (15 points)
+### Task 6: Build a user-friendly front-end using Streamlit or any other preferred library/framework (20 points)
 
-1. Design a user-friendly interface for Trainers to interact with the PokéDex Assistant (10 points)
+1. Design a user-friendly interface for Trainers to interact with the PokéDex Assistant (13 points)
    Ensure the interface supports text, image, PDF, and website link inputs from Trainers
 
-2. Test the interface for usability, ensuring it’s intuitive for Trainers of all levels (5 points)
+2. Test the interface for usability, ensuring it’s intuitive for Trainers of all levels (7 points)
 
 [**Hint**](https://streamlit.io/generative-ai)
 
