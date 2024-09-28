@@ -1,4 +1,7 @@
-# Objective:
+# Pokémon-Themed Data Extraction
+**(Total Points: 100)**
+
+## Objective
 Your mission is to help Professor Oak analyse the stats of seven Pokémon-owned companies in the Kanto region: **Voltas, Blue Star, Crompton, Orient Electric, Havells, Symphony, and Whirlpool**, to help the Pokémon understand their strengths and weaknesses better and improve their skills.
 
 **Note:** This task has to be completed using web-scraping techniques. You are allowed to use any available code-based web-scraping tools to complete the task. Data cannot be manually extracted or downloaded from the given site.
@@ -54,4 +57,4 @@ Each CSV file should correspond to one of the tasks mentioned above. Write **one
 [Pokédex Data Files](https://docs.google.com/spreadsheets/d/1-UEN3tcM5PFc6ktqdIBZeAgpOq6RWtQi/edit?usp=sharing&ouid=112995622785589197872&rtpof=true&sd=true)
 
 # Submission:
-As a Pokémon researcher, you must also upload your code to **GitHub (Pokémon HQ)** along with a README explaining how to set up the environment and run the commands. This way, other Pokémon Trainers can also benefit from your findings!
+As a Pokémon researcher, you must also upload your code to **GitHub (Pokémon HQ)**. This way, other Pokémon Trainers can also benefit from your findings! Follow the standard instructions from [README.md](/README.md). Also make sure to upload the **Data Files** that you create to the GitHub repository.
